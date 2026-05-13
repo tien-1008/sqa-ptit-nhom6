@@ -1,0 +1,13 @@
+{
+  "name": "sqa-report-generator",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Generate Vietnamese SQA Excel workbooks for the SQA E-commerce Mini System.",
+  "type": "commonjs",
+  "scripts": {
+    "generate": "node generate-reports.js"
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0"
+  }
+}

@@ -1,0 +1,605 @@
+{
+  "checked": 85,
+  "missing": [
+    {
+      "file": "03_Ket_qua_kiem_thu_5_thanh_vien.xlsx",
+      "sheet": "TV1_Auth",
+      "rowNumber": 2,
+      "header": "Evidence",
+      "raw": "screenshots/AUTH-TC-01.png",
+      "normalized": "reports/evidence/screenshots/AUTH-TC-01.png"
+    },
+    {
+      "file": "03_Ket_qua_kiem_thu_5_thanh_vien.xlsx",
+      "sheet": "TV1_Auth",
+      "rowNumber": 3,
+      "header": "Evidence",
+      "raw": "screenshots/AUTH-TC-02.png",
+      "normalized": "reports/evidence/screenshots/AUTH-TC-02.png"
+    },
+    {
+      "file": "03_Ket_qua_kiem_thu_5_thanh_vien.xlsx",
+      "sheet": "TV1_Auth",
+      "rowNumber": 4,
+      "header": "Evidence",
+      "raw": "screenshots/AUTH-TC-03.png",
+      "normalized": "reports/evidence/screenshots/AUTH-TC-03.png"
+    },
+    {
+      "file": "03_Ket_qua_kiem_thu_5_thanh_vien.xlsx",
+      "sheet": "TV1_Auth",
+      "rowNumber": 5,
+      "header": "Evidence",
+      "raw": "screenshots/AUTH-TC-04.png",
+      "normalized": "reports/evidence/screenshots/AUTH-TC-04.png"
+    },
+    {
+      "file": "03_Ket_qua_kiem_thu_5_thanh_vien.xlsx",
+      "sheet": "TV1_Auth",
+      "rowNumber": 6,
+      "header": "Evidence",
+      "raw": "screenshots/AUTH-TC-05.png",
+      "normalized": "reports/evidence/screenshots/AUTH-TC-05.png"
+    },
+    {
+      "file": "03_Ket_qua_kiem_thu_5_thanh_vien.xlsx",
+      "sheet": "TV1_Auth",
+      "rowNumber": 8,
+      "header": "Evidence",
+      "raw": "api-test-result/AUTH-TC-07.txt",
+      "normalized": "reports/evidence/api-test-result/AUTH-TC-07.txt"
+    },
+    {
+      "file": "03_Ket_qua_kiem_thu_5_thanh_vien.xlsx",
+      "sheet": "TV1_Auth",
+      "rowNumber": 9,
+      "header": "Evidence",
+      "raw": "api-test-result/AUTH-TC-08.txt",
+      "normalized": "reports/evidence/api-test-result/AUTH-TC-08.txt"
+    },
+    {
+      "file": "03_Ket_qua_kiem_thu_5_thanh_vien.xlsx",
+      "sheet": "TV1_Auth",
+      "rowNumber": 10,
+      "header": "Evidence",
+      "raw": "api-test-result/AUTH-TC-09.txt",
+      "normalized": "reports/evidence/api-test-result/AUTH-TC-09.txt"
+    },
+    {
+      "file": "03_Ket_qua_kiem_thu_5_thanh_vien.xlsx",
+      "sheet": "TV1_Auth",
+      "rowNumber": 11,
+      "header": "Evidence",
+      "raw": "api-test-result/AUTH-TC-10.txt",
+      "normalized": "reports/evidence/api-test-result/AUTH-TC-10.txt"
+    },
+    {
+      "file": "03_Ket_qua_kiem_thu_5_thanh_vien.xlsx",
+      "sheet": "TV1_Auth",
+      "rowNumber": 12,
+      "header": "Evidence",
+      "raw": "unit-test-result/AUTH-TC-11.txt",
+      "normalized": "reports/evidence/unit-test-result/AUTH-TC-11.txt"
+    },
+    {
+      "file": "03_Ket_qua_kiem_thu_5_thanh_vien.xlsx",
+      "sheet": "TV1_Auth",
+      "rowNumber": 13,
+      "header": "Evidence",
+      "raw": "unit-test-result/AUTH-TC-12.txt",
+      "normalized": "reports/evidence/unit-test-result/AUTH-TC-12.txt"
+    },
+    {
+      "file": "03_Ket_qua_kiem_thu_5_thanh_vien.xlsx",
+      "sheet": "TV1_Auth",
+      "rowNumber": 14,
+      "header": "Evidence",
+      "raw": "unit-test-result/AUTH-TC-13.txt",
+      "normalized": "reports/evidence/unit-test-result/AUTH-TC-13.txt"
+    },
+    {
+      "file": "03_Ket_qua_kiem_thu_5_thanh_vien.xlsx",
+      "sheet": "TV1_Auth",
+      "rowNumber": 15,
+      "header": "Evidence",
+      "raw": "screenshots/AUTH-TC-14.png",
+      "normalized": "reports/evidence/screenshots/AUTH-TC-14.png"
+    },
+    {
+      "file": "03_Ket_qua_kiem_thu_5_thanh_vien.xlsx",
+      "sheet": "TV1_Auth",
+      "rowNumber": 16,
+      "header": "Evidence",
+      "raw": "screenshots/AUTH-TC-15.png",
+      "normalized": "reports/evidence/screenshots/AUTH-TC-15.png"
+    },
+    {
+      "file": "03_Ket_qua_kiem_thu_5_thanh_vien.xlsx",
+      "sheet": "TV2_Product",
+      "rowNumber": 2,
+      "header": "Evidence",
+      "raw": "screenshots/PROD-TC-01.png",
+      "normalized": "reports/evidence/screenshots/PROD-TC-01.png"
+    },
+    {
+      "file": "03_Ket_qua_kiem_thu_5_thanh_vien.xlsx",
+      "sheet": "TV2_Product",
+      "rowNumber": 3,
+      "header": "Evidence",
+      "raw": "screenshots/PROD-TC-02.png",
+      "normalized": "reports/evidence/screenshots/PROD-TC-02.png"
+    },
+    {
+      "file": "03_Ket_qua_kiem_thu_5_thanh_vien.xlsx",
+      "sheet": "TV2_Product",
+      "rowNumber": 4,
+      "header": "Evidence",
+      "raw": "screenshots/PROD-TC-03.png",
+      "normalized": "reports/evidence/screenshots/PROD-TC-03.png"
+    },
+    {
+      "file": "03_Ket_qua_kiem_thu_5_thanh_vien.xlsx",
+      "sheet": "TV2_Product",
+      "rowNumber": 5,
+      "header": "Evidence",
+      "raw": "screenshots/PROD-TC-04.png",
+      "normalized": "reports/evidence/screenshots/PROD-TC-04.png"
+    },
+    {
+      "file": "03_Ket_qua_kiem_thu_5_thanh_vien.xlsx",
+      "sheet": "TV2_Product",
+      "rowNumber": 6,
+      "header": "Evidence",
+      "raw": "screenshots/PROD-TC-05.png",
+      "normalized": "reports/evidence/screenshots/PROD-TC-05.png"
+    },
+    {
+      "file": "03_Ket_qua_kiem_thu_5_thanh_vien.xlsx",
+      "sheet": "TV2_Product",
+      "rowNumber": 8,
+      "header": "Evidence",
+      "raw": "api-test-result/PROD-TC-07.txt",
+      "normalized": "reports/evidence/api-test-result/PROD-TC-07.txt"
+    },
+    {
+      "file": "03_Ket_qua_kiem_thu_5_thanh_vien.xlsx",
+      "sheet": "TV2_Product",
+      "rowNumber": 9,
+      "header": "Evidence",
+      "raw": "api-test-result/PROD-TC-08.txt",
+      "normalized": "reports/evidence/api-test-result/PROD-TC-08.txt"
+    },
+    {
+      "file": "03_Ket_qua_kiem_thu_5_thanh_vien.xlsx",
+      "sheet": "TV2_Product",
+      "rowNumber": 10,
+      "header": "Evidence",
+      "raw": "api-test-result/PROD-TC-09.txt",
+      "normalized": "reports/evidence/api-test-result/PROD-TC-09.txt"
+    },
+    {
+      "file": "03_Ket_qua_kiem_thu_5_thanh_vien.xlsx",
+      "sheet": "TV2_Product",
+      "rowNumber": 11,
+      "header": "Evidence",
+      "raw": "api-test-result/PROD-TC-10.txt",
+      "normalized": "reports/evidence/api-test-result/PROD-TC-10.txt"
+    },
+    {
+      "file": "03_Ket_qua_kiem_thu_5_thanh_vien.xlsx",
+      "sheet": "TV2_Product",
+      "rowNumber": 12,
+      "header": "Evidence",
+      "raw": "unit-test-result/PROD-TC-11.txt",
+      "normalized": "reports/evidence/unit-test-result/PROD-TC-11.txt"
+    },
+    {
+      "file": "03_Ket_qua_kiem_thu_5_thanh_vien.xlsx",
+      "sheet": "TV2_Product",
+      "rowNumber": 13,
+      "header": "Evidence",
+      "raw": "unit-test-result/PROD-TC-12.txt",
+      "normalized": "reports/evidence/unit-test-result/PROD-TC-12.txt"
+    },
+    {
+      "file": "03_Ket_qua_kiem_thu_5_thanh_vien.xlsx",
+      "sheet": "TV2_Product",
+      "rowNumber": 14,
+      "header": "Evidence",
+      "raw": "unit-test-result/PROD-TC-13.txt",
+      "normalized": "reports/evidence/unit-test-result/PROD-TC-13.txt"
+    },
+    {
+      "file": "03_Ket_qua_kiem_thu_5_thanh_vien.xlsx",
+      "sheet": "TV2_Product",
+      "rowNumber": 15,
+      "header": "Evidence",
+      "raw": "api-test-result/PROD-TC-14.txt",
+      "normalized": "reports/evidence/api-test-result/PROD-TC-14.txt"
+    },
+    {
+      "file": "03_Ket_qua_kiem_thu_5_thanh_vien.xlsx",
+      "sheet": "TV2_Product",
+      "rowNumber": 16,
+      "header": "Evidence",
+      "raw": "api-test-result/PROD-TC-15.txt",
+      "normalized": "reports/evidence/api-test-result/PROD-TC-15.txt"
+    },
+    {
+      "file": "03_Ket_qua_kiem_thu_5_thanh_vien.xlsx",
+      "sheet": "TV3_Cart_Checkout",
+      "rowNumber": 2,
+      "header": "Evidence",
+      "raw": "screenshots/CART-TC-01.png",
+      "normalized": "reports/evidence/screenshots/CART-TC-01.png"
+    },
+    {
+      "file": "03_Ket_qua_kiem_thu_5_thanh_vien.xlsx",
+      "sheet": "TV3_Cart_Checkout",
+      "rowNumber": 3,
+      "header": "Evidence",
+      "raw": "screenshots/CART-TC-02.png",
+      "normalized": "reports/evidence/screenshots/CART-TC-02.png"
+    },
+    {
+      "file": "03_Ket_qua_kiem_thu_5_thanh_vien.xlsx",
+      "sheet": "TV3_Cart_Checkout",
+      "rowNumber": 4,
+      "header": "Evidence",
+      "raw": "screenshots/CART-TC-03.png",
+      "normalized": "reports/evidence/screenshots/CART-TC-03.png"
+    },
+    {
+      "file": "03_Ket_qua_kiem_thu_5_thanh_vien.xlsx",
+      "sheet": "TV3_Cart_Checkout",
+      "rowNumber": 5,
+      "header": "Evidence",
+      "raw": "screenshots/CART-TC-04.png",
+      "normalized": "reports/evidence/screenshots/CART-TC-04.png"
+    },
+    {
+      "file": "03_Ket_qua_kiem_thu_5_thanh_vien.xlsx",
+      "sheet": "TV3_Cart_Checkout",
+      "rowNumber": 6,
+      "header": "Evidence",
+      "raw": "screenshots/CART-TC-05.png",
+      "normalized": "reports/evidence/screenshots/CART-TC-05.png"
+    },
+    {
+      "file": "03_Ket_qua_kiem_thu_5_thanh_vien.xlsx",
+      "sheet": "TV3_Cart_Checkout",
+      "rowNumber": 7,
+      "header": "Evidence",
+      "raw": "api-test-result/CART-TC-06.txt",
+      "normalized": "reports/evidence/api-test-result/CART-TC-06.txt"
+    },
+    {
+      "file": "03_Ket_qua_kiem_thu_5_thanh_vien.xlsx",
+      "sheet": "TV3_Cart_Checkout",
+      "rowNumber": 9,
+      "header": "Evidence",
+      "raw": "api-test-result/CART-TC-08.txt",
+      "normalized": "reports/evidence/api-test-result/CART-TC-08.txt"
+    },
+    {
+      "file": "03_Ket_qua_kiem_thu_5_thanh_vien.xlsx",
+      "sheet": "TV3_Cart_Checkout",
+      "rowNumber": 10,
+      "header": "Evidence",
+      "raw": "api-test-result/CART-TC-09.txt",
+      "normalized": "reports/evidence/api-test-result/CART-TC-09.txt"
+    },
+    {
+      "file": "03_Ket_qua_kiem_thu_5_thanh_vien.xlsx",
+      "sheet": "TV3_Cart_Checkout",
+      "rowNumber": 11,
+      "header": "Evidence",
+      "raw": "api-test-result/CART-TC-10.txt",
+      "normalized": "reports/evidence/api-test-result/CART-TC-10.txt"
+    },
+    {
+      "file": "03_Ket_qua_kiem_thu_5_thanh_vien.xlsx",
+      "sheet": "TV3_Cart_Checkout",
+      "rowNumber": 12,
+      "header": "Evidence",
+      "raw": "unit-test-result/CART-TC-11.txt",
+      "normalized": "reports/evidence/unit-test-result/CART-TC-11.txt"
+    },
+    {
+      "file": "03_Ket_qua_kiem_thu_5_thanh_vien.xlsx",
+      "sheet": "TV3_Cart_Checkout",
+      "rowNumber": 13,
+      "header": "Evidence",
+      "raw": "unit-test-result/CART-TC-12.txt",
+      "normalized": "reports/evidence/unit-test-result/CART-TC-12.txt"
+    },
+    {
+      "file": "03_Ket_qua_kiem_thu_5_thanh_vien.xlsx",
+      "sheet": "TV3_Cart_Checkout",
+      "rowNumber": 14,
+      "header": "Evidence",
+      "raw": "unit-test-result/CART-TC-13.txt",
+      "normalized": "reports/evidence/unit-test-result/CART-TC-13.txt"
+    },
+    {
+      "file": "03_Ket_qua_kiem_thu_5_thanh_vien.xlsx",
+      "sheet": "TV3_Cart_Checkout",
+      "rowNumber": 15,
+      "header": "Evidence",
+      "raw": "screenshots/CART-TC-14.png",
+      "normalized": "reports/evidence/screenshots/CART-TC-14.png"
+    },
+    {
+      "file": "03_Ket_qua_kiem_thu_5_thanh_vien.xlsx",
+      "sheet": "TV3_Cart_Checkout",
+      "rowNumber": 16,
+      "header": "Evidence",
+      "raw": "screenshots/CART-TC-15.png",
+      "normalized": "reports/evidence/screenshots/CART-TC-15.png"
+    },
+    {
+      "file": "03_Ket_qua_kiem_thu_5_thanh_vien.xlsx",
+      "sheet": "TV4_Order",
+      "rowNumber": 2,
+      "header": "Evidence",
+      "raw": "screenshots/ORD-TC-01.png",
+      "normalized": "reports/evidence/screenshots/ORD-TC-01.png"
+    },
+    {
+      "file": "03_Ket_qua_kiem_thu_5_thanh_vien.xlsx",
+      "sheet": "TV4_Order",
+      "rowNumber": 3,
+      "header": "Evidence",
+      "raw": "screenshots/ORD-TC-02.png",
+      "normalized": "reports/evidence/screenshots/ORD-TC-02.png"
+    },
+    {
+      "file": "03_Ket_qua_kiem_thu_5_thanh_vien.xlsx",
+      "sheet": "TV4_Order",
+      "rowNumber": 4,
+      "header": "Evidence",
+      "raw": "screenshots/ORD-TC-03.png",
+      "normalized": "reports/evidence/screenshots/ORD-TC-03.png"
+    },
+    {
+      "file": "03_Ket_qua_kiem_thu_5_thanh_vien.xlsx",
+      "sheet": "TV4_Order",
+      "rowNumber": 5,
+      "header": "Evidence",
+      "raw": "screenshots/ORD-TC-04.png",
+      "normalized": "reports/evidence/screenshots/ORD-TC-04.png"
+    },
+    {
+      "file": "03_Ket_qua_kiem_thu_5_thanh_vien.xlsx",
+      "sheet": "TV4_Order",
+      "rowNumber": 6,
+      "header": "Evidence",
+      "raw": "screenshots/ORD-TC-05.png",
+      "normalized": "reports/evidence/screenshots/ORD-TC-05.png"
+    },
+    {
+      "file": "03_Ket_qua_kiem_thu_5_thanh_vien.xlsx",
+      "sheet": "TV4_Order",
+      "rowNumber": 7,
+      "header": "Evidence",
+      "raw": "api-test-result/ORD-TC-06.txt",
+      "normalized": "reports/evidence/api-test-result/ORD-TC-06.txt"
+    },
+    {
+      "file": "03_Ket_qua_kiem_thu_5_thanh_vien.xlsx",
+      "sheet": "TV4_Order",
+      "rowNumber": 8,
+      "header": "Evidence",
+      "raw": "api-test-result/ORD-TC-07.txt",
+      "normalized": "reports/evidence/api-test-result/ORD-TC-07.txt"
+    },
+    {
+      "file": "03_Ket_qua_kiem_thu_5_thanh_vien.xlsx",
+      "sheet": "TV4_Order",
+      "rowNumber": 9,
+      "header": "Evidence",
+      "raw": "api-test-result/ORD-TC-08.txt",
+      "normalized": "reports/evidence/api-test-result/ORD-TC-08.txt"
+    },
+    {
+      "file": "03_Ket_qua_kiem_thu_5_thanh_vien.xlsx",
+      "sheet": "TV4_Order",
+      "rowNumber": 10,
+      "header": "Evidence",
+      "raw": "api-test-result/ORD-TC-09.txt",
+      "normalized": "reports/evidence/api-test-result/ORD-TC-09.txt"
+    },
+    {
+      "file": "03_Ket_qua_kiem_thu_5_thanh_vien.xlsx",
+      "sheet": "TV4_Order",
+      "rowNumber": 11,
+      "header": "Evidence",
+      "raw": "api-test-result/ORD-TC-10.txt",
+      "normalized": "reports/evidence/api-test-result/ORD-TC-10.txt"
+    },
+    {
+      "file": "03_Ket_qua_kiem_thu_5_thanh_vien.xlsx",
+      "sheet": "TV4_Order",
+      "rowNumber": 13,
+      "header": "Evidence",
+      "raw": "unit-test-result/ORD-TC-12.txt",
+      "normalized": "reports/evidence/unit-test-result/ORD-TC-12.txt"
+    },
+    {
+      "file": "03_Ket_qua_kiem_thu_5_thanh_vien.xlsx",
+      "sheet": "TV4_Order",
+      "rowNumber": 14,
+      "header": "Evidence",
+      "raw": "unit-test-result/ORD-TC-13.txt",
+      "normalized": "reports/evidence/unit-test-result/ORD-TC-13.txt"
+    },
+    {
+      "file": "03_Ket_qua_kiem_thu_5_thanh_vien.xlsx",
+      "sheet": "TV4_Order",
+      "rowNumber": 15,
+      "header": "Evidence",
+      "raw": "api-test-result/ORD-TC-14.txt",
+      "normalized": "reports/evidence/api-test-result/ORD-TC-14.txt"
+    },
+    {
+      "file": "03_Ket_qua_kiem_thu_5_thanh_vien.xlsx",
+      "sheet": "TV4_Order",
+      "rowNumber": 16,
+      "header": "Evidence",
+      "raw": "api-test-result/ORD-TC-15.txt",
+      "normalized": "reports/evidence/api-test-result/ORD-TC-15.txt"
+    },
+    {
+      "file": "03_Ket_qua_kiem_thu_5_thanh_vien.xlsx",
+      "sheet": "TV5_Voucher_Review",
+      "rowNumber": 2,
+      "header": "Evidence",
+      "raw": "screenshots/VR-TC-01.png",
+      "normalized": "reports/evidence/screenshots/VR-TC-01.png"
+    },
+    {
+      "file": "03_Ket_qua_kiem_thu_5_thanh_vien.xlsx",
+      "sheet": "TV5_Voucher_Review",
+      "rowNumber": 3,
+      "header": "Evidence",
+      "raw": "screenshots/VR-TC-02.png",
+      "normalized": "reports/evidence/screenshots/VR-TC-02.png"
+    },
+    {
+      "file": "03_Ket_qua_kiem_thu_5_thanh_vien.xlsx",
+      "sheet": "TV5_Voucher_Review",
+      "rowNumber": 4,
+      "header": "Evidence",
+      "raw": "screenshots/VR-TC-03.png",
+      "normalized": "reports/evidence/screenshots/VR-TC-03.png"
+    },
+    {
+      "file": "03_Ket_qua_kiem_thu_5_thanh_vien.xlsx",
+      "sheet": "TV5_Voucher_Review",
+      "rowNumber": 5,
+      "header": "Evidence",
+      "raw": "screenshots/VR-TC-04.png",
+      "normalized": "reports/evidence/screenshots/VR-TC-04.png"
+    },
+    {
+      "file": "03_Ket_qua_kiem_thu_5_thanh_vien.xlsx",
+      "sheet": "TV5_Voucher_Review",
+      "rowNumber": 6,
+      "header": "Evidence",
+      "raw": "screenshots/VR-TC-05.png",
+      "normalized": "reports/evidence/screenshots/VR-TC-05.png"
+    },
+    {
+      "file": "03_Ket_qua_kiem_thu_5_thanh_vien.xlsx",
+      "sheet": "TV5_Voucher_Review",
+      "rowNumber": 7,
+      "header": "Evidence",
+      "raw": "api-test-result/VR-TC-06.txt",
+      "normalized": "reports/evidence/api-test-result/VR-TC-06.txt"
+    },
+    {
+      "file": "03_Ket_qua_kiem_thu_5_thanh_vien.xlsx",
+      "sheet": "TV5_Voucher_Review",
+      "rowNumber": 8,
+      "header": "Evidence",
+      "raw": "api-test-result/VR-TC-07.txt",
+      "normalized": "reports/evidence/api-test-result/VR-TC-07.txt"
+    },
+    {
+      "file": "03_Ket_qua_kiem_thu_5_thanh_vien.xlsx",
+      "sheet": "TV5_Voucher_Review",
+      "rowNumber": 9,
+      "header": "Evidence",
+      "raw": "api-test-result/VR-TC-08.txt",
+      "normalized": "reports/evidence/api-test-result/VR-TC-08.txt"
+    },
+    {
+      "file": "03_Ket_qua_kiem_thu_5_thanh_vien.xlsx",
+      "sheet": "TV5_Voucher_Review",
+      "rowNumber": 11,
+      "header": "Evidence",
+      "raw": "api-test-result/VR-TC-10.txt",
+      "normalized": "reports/evidence/api-test-result/VR-TC-10.txt"
+    },
+    {
+      "file": "03_Ket_qua_kiem_thu_5_thanh_vien.xlsx",
+      "sheet": "TV5_Voucher_Review",
+      "rowNumber": 12,
+      "header": "Evidence",
+      "raw": "unit-test-result/VR-TC-11.txt",
+      "normalized": "reports/evidence/unit-test-result/VR-TC-11.txt"
+    },
+    {
+      "file": "03_Ket_qua_kiem_thu_5_thanh_vien.xlsx",
+      "sheet": "TV5_Voucher_Review",
+      "rowNumber": 13,
+      "header": "Evidence",
+      "raw": "unit-test-result/VR-TC-12.txt",
+      "normalized": "reports/evidence/unit-test-result/VR-TC-12.txt"
+    },
+    {
+      "file": "03_Ket_qua_kiem_thu_5_thanh_vien.xlsx",
+      "sheet": "TV5_Voucher_Review",
+      "rowNumber": 14,
+      "header": "Evidence",
+      "raw": "unit-test-result/VR-TC-13.txt",
+      "normalized": "reports/evidence/unit-test-result/VR-TC-13.txt"
+    },
+    {
+      "file": "03_Ket_qua_kiem_thu_5_thanh_vien.xlsx",
+      "sheet": "TV5_Voucher_Review",
+      "rowNumber": 15,
+      "header": "Evidence",
+      "raw": "api-test-result/VR-TC-14.txt",
+      "normalized": "reports/evidence/api-test-result/VR-TC-14.txt"
+    },
+    {
+      "file": "03_Ket_qua_kiem_thu_5_thanh_vien.xlsx",
+      "sheet": "TV5_Voucher_Review",
+      "rowNumber": 16,
+      "header": "Evidence",
+      "raw": "api-test-result/VR-TC-15.txt",
+      "normalized": "reports/evidence/api-test-result/VR-TC-15.txt"
+    },
+    {
+      "file": "03_Ket_qua_kiem_thu_5_thanh_vien.xlsx",
+      "sheet": "Defect Log",
+      "rowNumber": 2,
+      "header": "Evidence",
+      "raw": "api-test-result/BUG-01.txt",
+      "normalized": "reports/evidence/api-test-result/BUG-01.txt"
+    },
+    {
+      "file": "03_Ket_qua_kiem_thu_5_thanh_vien.xlsx",
+      "sheet": "Defect Log",
+      "rowNumber": 3,
+      "header": "Evidence",
+      "raw": "api-test-result/BUG-02.txt",
+      "normalized": "reports/evidence/api-test-result/BUG-02.txt"
+    },
+    {
+      "file": "03_Ket_qua_kiem_thu_5_thanh_vien.xlsx",
+      "sheet": "Defect Log",
+      "rowNumber": 4,
+      "header": "Evidence",
+      "raw": "api-test-result/BUG-03.txt",
+      "normalized": "reports/evidence/api-test-result/BUG-03.txt"
+    },
+    {
+      "file": "03_Ket_qua_kiem_thu_5_thanh_vien.xlsx",
+      "sheet": "Defect Log",
+      "rowNumber": 5,
+      "header": "Evidence",
+      "raw": "screenshots/BUG-04.png",
+      "normalized": "reports/evidence/screenshots/BUG-04.png"
+    },
+    {
+      "file": "03_Ket_qua_kiem_thu_5_thanh_vien.xlsx",
+      "sheet": "Defect Log",
+      "rowNumber": 10,
+      "header": "Evidence",
+      "raw": "screenshots/BUG-09.png",
+      "normalized": "reports/evidence/screenshots/BUG-09.png"
+    }
+  ]
+}

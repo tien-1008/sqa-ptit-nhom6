@@ -1,0 +1,19 @@
+ID,Document,Checklist Item,Expected,Actual,Result,Severity,Recommendation,Reviewer
+DR-01,SRS.md,Ten he thong muc tieu va pham vi ro rang,Mo ta du de hieu de tai va gioi han,Da co ten du an muc tieu va scope,Pass,None,Giam sat chat luong
+DR-02,SRS.md,Actor duoc liet ke day du,Co Guest User Admin,Da liet ke 3 actor,Pass,None,Nguyễn Huy Trường
+DR-03,SRS.md,Business rule auth ro rang,Email password role admin duoc mo ta,Da co 12 business rule bao gom auth,Pass,None,Nguyễn Huy Trường
+DR-04,SRS.md,Order transition duoc mo ta,Trang thai va logic khong duoc quay lui,Da mo ta state va luong hop le,Pass,None,Ngô Quang Tiến
+DR-05,SRS.md,Review rule duoc mo ta,Chi review completed order va khong trung,Da mo ta day du,Pass,None,Trần Chí Trung
+DR-06,TEST_PLAN.md,Muc tieu kiem thu ro rang,Neu duoc pham vi entry exit risk,Da co day du muc yeu cau,Pass,None,Group Lead
+DR-07,TEST_PLAN.md,Co lich kiem thu gia dinh,Co moc review API UI retest,Da co bang lich 5 ngay,Pass,None,Group Lead
+DR-08,REVIEW_CHECKLIST.md,Checklist tai lieu va code du nhom,Co spec API code security UI,Da tach thanh 5 nhom,Pass,None,Hồ Quang Trường
+DR-09,TEST_CASES.md,Test case co ca pass va fail,Co scenario positive negative boundary,Cac module deu co pass fail,Pass,None,All Members
+DR-10,TEST_CASES.md,Test case bao phu san pham inactive va delete guard,Phan anh logic sau audit,Da co PROD-09 PROD-10,Pass,None,Hồ Quang Trường
+DR-11,TEST_CASES.md,Review state sau khi danh gia duoc bao phu,Co case kiểm tra reviewed flag,Da co REV-09,Pass,None,Trần Chí Trung
+DR-12,BUG_REPORT.md,Defect co severity priority va resolution,Co issue hop ly khong lam app sap,Da co 4 defect resolved,Pass,None,Group Lead
+DR-13,API_DOCUMENT.md,Route auth product cart order voucher review day du,URL method auth va payload duoc mo ta,Da liet ke day du route chinh,Pass,None,Ngô Quang Tiến
+DR-14,API_DOCUMENT.md,Endpoint admin products duoc cap nhat,Co GET admin products sau audit,Da co endpoint va ghi chu visibility,Pass,None,Hồ Quang Trường
+DR-15,DATABASE_DESIGN.md,Schema va quan he bang ro rang,Co users categories products cart vouchers orders order_items reviews,Da mo ta day du,Pass,None,Hoàng Xuân Thảo
+DR-16,GROUP_ASSIGNMENT.md,Phan cong phu hop 5 thanh vien,Module va SQA scope duoc tach ro,Da co bang phan cong,Pass,None,Group Lead
+DR-17,REPORT_OUTLINE.md,Bo cuc bao cao phu hop mon hoc,Co phan chung va phan tung thanh vien,Da co day du section,Pass,None,Group Lead
+DR-18,README.md,Cach cai dat va chay ro rang,Co backend frontend seed test va account,Da co ca npm va npm.cmd,Pass,None,Hoàng Xuân Thảo

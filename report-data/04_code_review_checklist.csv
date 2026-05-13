@@ -1,0 +1,21 @@
+ID,Module,File/Component,Checklist Item,Expected,Actual,Result,Severity,Recommendation,Reviewer
+CR-01,Auth,backend/src/modules/auth/auth.schema.ts,Validate email password,Email valid password min 8 upper lower number,Da su dung Zod rule tuong ung,Pass,None,Nguyễn Huy Trường
+CR-02,Auth,backend/src/modules/auth/auth.service.ts,Password duoc hash,Khong luu plaintext,Su dung bcrypt.hash va bcrypt.compare,Pass,None,Nguyễn Huy Trường
+CR-03,Auth,backend/src/middlewares/auth.ts,Admin route duoc bao ve,JWT va role ADMIN phai duoc check,requireAuth va requireAdmin da co,Pass,None,Nguyễn Huy Trường
+CR-04,Product,backend/src/modules/products/product.service.ts,Public khong thay inactive product,Public list detail chi ACTIVE,Da loc ACTIVE va detail inactive tra 404,Pass,None,Hồ Quang Trường
+CR-05,Product,backend/src/modules/products/product.routes.ts,Admin xem day du product,Co endpoint admin list rieng,Da co GET /api/admin/products,Pass,None,Hồ Quang Trường
+CR-06,Product,backend/src/modules/products/product.service.ts,Delete bao ve du lieu lich su,Product co order/review history khong hard delete,Da tra 409 conflict,Pass,None,Hồ Quang Trường
+CR-07,Cart,backend/src/modules/cart/cart.service.ts,Validate stock khi add/update,Quantity khong vuot stock,Da reject 409 khi vuot ton,Pass,None,Hoàng Xuân Thảo
+CR-08,Checkout,backend/src/modules/orders/order.service.ts,Checkout dung transaction,Create order stock update voucher cart clear cung transaction,Da dung db.transaction,Pass,None,Hoàng Xuân Thảo
+CR-09,Checkout,backend/src/modules/orders/order.service.ts,Checkout khong chap nhan inactive product,Inactive trong cart phai fail,Da reject 409,Pass,None,Hoàng Xuân Thảo
+CR-10,Order,backend/src/modules/orders/order.service.ts,Transition state hop le,Khong duoc COMPLETED ve PENDING,allowedTransitions da enforce,Pass,None,Ngô Quang Tiến
+CR-11,Order,backend/src/modules/orders/order.service.ts,Cancel restore stock,Order cancel phai cong stock,Da restore stock khi CANCELLED,Pass,None,Ngô Quang Tiến
+CR-12,Voucher,backend/src/modules/vouchers/voucher.service.ts,Validate expired usage min value,Rule business voucher day du,Da validate inactive expired limit min order,Pass,None,Trần Chí Trung
+CR-13,Voucher,backend/src/database/seed.ts,Seed voucher nhat quan,used_count phan anh order seed dung voucher,WELCOME10.used_count=1,Pass,None,Trần Chí Trung
+CR-14,Review,backend/src/modules/reviews/review.service.ts,Review chi cho completed order,Pending order phai fail,Da reject 409,Pass,None,Trần Chí Trung
+CR-15,Review,backend/src/modules/reviews/review.service.ts,Duplicate review bi chan,Unique theo user order product,Da check duplicate va schema cung co unique,Pass,None,Trần Chí Trung
+CR-16,Review,backend/src/modules/orders/order.service.ts,Expose reviewed state cho UI,orders/mine co reviewed flag,Da them items[].reviewed,Pass,None,Trần Chí Trung
+CR-17,Frontend,frontend/src/pages/OrdersPage.tsx,UI an review form da gui,User khong thay form lap lai,Da reload order va an item reviewed,Pass,None,Trần Chí Trung
+CR-18,Frontend,frontend/src/pages/AdminProductsPage.tsx,Confirm truoc delete,Can canh bao thao tac pha huy,Da co window.confirm,Pass,None,Hồ Quang Trường
+CR-19,Shared,backend/src/middlewares/errorHandler.ts,Response loi thong nhat,success false message data,Da normalize AppError Zod unknown,Pass,None,Group Lead
+CR-20,Build,backend and frontend,Import/export khong loi,Build TypeScript pass,Ca backend va frontend build pass,Pass,None,Group Lead

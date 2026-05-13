@@ -1,0 +1,2 @@
+PROD-TC-06 - Admin create product: covered by backend-supertest-result.txt.
+Generated at: 2026-05-13T16:00:23.793Z

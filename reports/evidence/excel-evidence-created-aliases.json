@@ -1,0 +1,381 @@
+{
+  "generatedAt": "2026-05-13T16:36:59.645Z",
+  "created": 75,
+  "createdRows": [
+    {
+      "file": "reports/evidence/screenshots/AUTH-TC-01.png",
+      "source": "reports/evidence/screenshots/auth-register-page.png",
+      "type": "screenshot-alias"
+    },
+    {
+      "file": "reports/evidence/screenshots/AUTH-TC-02.png",
+      "source": "reports/evidence/screenshots/auth-register-page.png",
+      "type": "screenshot-alias"
+    },
+    {
+      "file": "reports/evidence/screenshots/AUTH-TC-03.png",
+      "source": "reports/evidence/screenshots/auth-register-page.png",
+      "type": "screenshot-alias"
+    },
+    {
+      "file": "reports/evidence/screenshots/AUTH-TC-04.png",
+      "source": "reports/evidence/screenshots/auth-login-page.png",
+      "type": "screenshot-alias"
+    },
+    {
+      "file": "reports/evidence/screenshots/AUTH-TC-05.png",
+      "source": "reports/evidence/screenshots/auth-login-page.png",
+      "type": "screenshot-alias"
+    },
+    {
+      "file": "reports/evidence/api-test-result/AUTH-TC-07.txt",
+      "source": "reports/evidence/api-test-result/backend-supertest-result.txt",
+      "type": "log-pointer"
+    },
+    {
+      "file": "reports/evidence/api-test-result/AUTH-TC-08.txt",
+      "source": "reports/evidence/api-test-result/backend-supertest-result.txt",
+      "type": "log-pointer"
+    },
+    {
+      "file": "reports/evidence/api-test-result/AUTH-TC-09.txt",
+      "source": "reports/evidence/api-test-result/backend-supertest-result.txt",
+      "type": "log-pointer"
+    },
+    {
+      "file": "reports/evidence/api-test-result/AUTH-TC-10.txt",
+      "source": "reports/evidence/api-test-result/backend-supertest-result.txt",
+      "type": "log-pointer"
+    },
+    {
+      "file": "reports/evidence/unit-test-result/AUTH-TC-11.txt",
+      "source": "reports/evidence/unit-test-result/backend-vitest-result.txt",
+      "type": "log-pointer"
+    },
+    {
+      "file": "reports/evidence/unit-test-result/AUTH-TC-12.txt",
+      "source": "reports/evidence/unit-test-result/backend-vitest-result.txt",
+      "type": "log-pointer"
+    },
+    {
+      "file": "reports/evidence/unit-test-result/AUTH-TC-13.txt",
+      "source": "reports/evidence/unit-test-result/backend-vitest-result.txt",
+      "type": "log-pointer"
+    },
+    {
+      "file": "reports/evidence/screenshots/AUTH-TC-14.png",
+      "source": "reports/evidence/screenshots/BUG-08.png",
+      "type": "screenshot-alias"
+    },
+    {
+      "file": "reports/evidence/screenshots/AUTH-TC-15.png",
+      "source": "reports/evidence/screenshots/auth-login-page.png",
+      "type": "screenshot-alias"
+    },
+    {
+      "file": "reports/evidence/screenshots/PROD-TC-01.png",
+      "source": "reports/evidence/screenshots/products-list.png",
+      "type": "screenshot-alias"
+    },
+    {
+      "file": "reports/evidence/screenshots/PROD-TC-02.png",
+      "source": "reports/evidence/screenshots/products-list.png",
+      "type": "screenshot-alias"
+    },
+    {
+      "file": "reports/evidence/screenshots/PROD-TC-03.png",
+      "source": "reports/evidence/screenshots/products-list.png",
+      "type": "screenshot-alias"
+    },
+    {
+      "file": "reports/evidence/screenshots/PROD-TC-04.png",
+      "source": "reports/evidence/screenshots/products-list.png",
+      "type": "screenshot-alias"
+    },
+    {
+      "file": "reports/evidence/screenshots/PROD-TC-05.png",
+      "source": "reports/evidence/screenshots/admin-products.png",
+      "type": "screenshot-alias"
+    },
+    {
+      "file": "reports/evidence/api-test-result/PROD-TC-07.txt",
+      "source": "reports/evidence/api-test-result/backend-supertest-result.txt",
+      "type": "log-pointer"
+    },
+    {
+      "file": "reports/evidence/api-test-result/PROD-TC-08.txt",
+      "source": "reports/evidence/api-test-result/backend-supertest-result.txt",
+      "type": "log-pointer"
+    },
+    {
+      "file": "reports/evidence/api-test-result/PROD-TC-09.txt",
+      "source": "reports/evidence/api-test-result/backend-supertest-result.txt",
+      "type": "log-pointer"
+    },
+    {
+      "file": "reports/evidence/api-test-result/PROD-TC-10.txt",
+      "source": "reports/evidence/api-test-result/backend-supertest-result.txt",
+      "type": "log-pointer"
+    },
+    {
+      "file": "reports/evidence/unit-test-result/PROD-TC-11.txt",
+      "source": "reports/evidence/unit-test-result/backend-vitest-result.txt",
+      "type": "log-pointer"
+    },
+    {
+      "file": "reports/evidence/unit-test-result/PROD-TC-12.txt",
+      "source": "reports/evidence/unit-test-result/backend-vitest-result.txt",
+      "type": "log-pointer"
+    },
+    {
+      "file": "reports/evidence/unit-test-result/PROD-TC-13.txt",
+      "source": "reports/evidence/unit-test-result/backend-vitest-result.txt",
+      "type": "log-pointer"
+    },
+    {
+      "file": "reports/evidence/api-test-result/PROD-TC-14.txt",
+      "source": "reports/evidence/api-test-result/backend-supertest-result.txt",
+      "type": "log-pointer"
+    },
+    {
+      "file": "reports/evidence/api-test-result/PROD-TC-15.txt",
+      "source": "reports/evidence/api-test-result/backend-supertest-result.txt",
+      "type": "log-pointer"
+    },
+    {
+      "file": "reports/evidence/screenshots/CART-TC-01.png",
+      "source": "reports/evidence/screenshots/products-list.png",
+      "type": "screenshot-alias"
+    },
+    {
+      "file": "reports/evidence/screenshots/CART-TC-02.png",
+      "source": "reports/evidence/screenshots/BUG-05.png",
+      "type": "screenshot-alias"
+    },
+    {
+      "file": "reports/evidence/screenshots/CART-TC-03.png",
+      "source": "reports/evidence/screenshots/BUG-05.png",
+      "type": "screenshot-alias"
+    },
+    {
+      "file": "reports/evidence/screenshots/CART-TC-04.png",
+      "source": "reports/evidence/screenshots/BUG-05.png",
+      "type": "screenshot-alias"
+    },
+    {
+      "file": "reports/evidence/screenshots/CART-TC-05.png",
+      "source": "reports/evidence/screenshots/BUG-05.png",
+      "type": "screenshot-alias"
+    },
+    {
+      "file": "reports/evidence/api-test-result/CART-TC-06.txt",
+      "source": "reports/evidence/api-test-result/backend-supertest-result.txt",
+      "type": "log-pointer"
+    },
+    {
+      "file": "reports/evidence/api-test-result/CART-TC-08.txt",
+      "source": "reports/evidence/api-test-result/backend-supertest-result.txt",
+      "type": "log-pointer"
+    },
+    {
+      "file": "reports/evidence/api-test-result/CART-TC-09.txt",
+      "source": "reports/evidence/api-test-result/backend-supertest-result.txt",
+      "type": "log-pointer"
+    },
+    {
+      "file": "reports/evidence/api-test-result/CART-TC-10.txt",
+      "source": "reports/evidence/api-test-result/backend-supertest-result.txt",
+      "type": "log-pointer"
+    },
+    {
+      "file": "reports/evidence/unit-test-result/CART-TC-11.txt",
+      "source": "reports/evidence/unit-test-result/backend-vitest-result.txt",
+      "type": "log-pointer"
+    },
+    {
+      "file": "reports/evidence/unit-test-result/CART-TC-12.txt",
+      "source": "reports/evidence/unit-test-result/backend-vitest-result.txt",
+      "type": "log-pointer"
+    },
+    {
+      "file": "reports/evidence/unit-test-result/CART-TC-13.txt",
+      "source": "reports/evidence/unit-test-result/backend-vitest-result.txt",
+      "type": "log-pointer"
+    },
+    {
+      "file": "reports/evidence/screenshots/CART-TC-14.png",
+      "source": "reports/evidence/screenshots/BUG-06.png",
+      "type": "screenshot-alias"
+    },
+    {
+      "file": "reports/evidence/screenshots/CART-TC-15.png",
+      "source": "reports/evidence/screenshots/BUG-05.png",
+      "type": "screenshot-alias"
+    },
+    {
+      "file": "reports/evidence/screenshots/ORD-TC-01.png",
+      "source": "reports/evidence/screenshots/user-orders.png",
+      "type": "screenshot-alias"
+    },
+    {
+      "file": "reports/evidence/screenshots/ORD-TC-02.png",
+      "source": "reports/evidence/screenshots/user-orders.png",
+      "type": "screenshot-alias"
+    },
+    {
+      "file": "reports/evidence/screenshots/ORD-TC-03.png",
+      "source": "reports/evidence/screenshots/BUG-10.png",
+      "type": "screenshot-alias"
+    },
+    {
+      "file": "reports/evidence/screenshots/ORD-TC-04.png",
+      "source": "reports/evidence/screenshots/BUG-10.png",
+      "type": "screenshot-alias"
+    },
+    {
+      "file": "reports/evidence/screenshots/ORD-TC-05.png",
+      "source": "reports/evidence/screenshots/user-orders.png",
+      "type": "screenshot-alias"
+    },
+    {
+      "file": "reports/evidence/api-test-result/ORD-TC-06.txt",
+      "source": "reports/evidence/api-test-result/backend-supertest-result.txt",
+      "type": "log-pointer"
+    },
+    {
+      "file": "reports/evidence/api-test-result/ORD-TC-07.txt",
+      "source": "reports/evidence/api-test-result/backend-supertest-result.txt",
+      "type": "log-pointer"
+    },
+    {
+      "file": "reports/evidence/api-test-result/ORD-TC-08.txt",
+      "source": "reports/evidence/api-test-result/backend-supertest-result.txt",
+      "type": "log-pointer"
+    },
+    {
+      "file": "reports/evidence/api-test-result/ORD-TC-09.txt",
+      "source": "reports/evidence/api-test-result/backend-supertest-result.txt",
+      "type": "log-pointer"
+    },
+    {
+      "file": "reports/evidence/api-test-result/ORD-TC-10.txt",
+      "source": "reports/evidence/api-test-result/backend-supertest-result.txt",
+      "type": "log-pointer"
+    },
+    {
+      "file": "reports/evidence/unit-test-result/ORD-TC-12.txt",
+      "source": "reports/evidence/unit-test-result/backend-vitest-result.txt",
+      "type": "log-pointer"
+    },
+    {
+      "file": "reports/evidence/unit-test-result/ORD-TC-13.txt",
+      "source": "reports/evidence/unit-test-result/backend-vitest-result.txt",
+      "type": "log-pointer"
+    },
+    {
+      "file": "reports/evidence/api-test-result/ORD-TC-14.txt",
+      "source": "reports/evidence/api-test-result/backend-supertest-result.txt",
+      "type": "log-pointer"
+    },
+    {
+      "file": "reports/evidence/api-test-result/ORD-TC-15.txt",
+      "source": "reports/evidence/api-test-result/backend-supertest-result.txt",
+      "type": "log-pointer"
+    },
+    {
+      "file": "reports/evidence/screenshots/VR-TC-01.png",
+      "source": "reports/evidence/screenshots/admin-vouchers.png",
+      "type": "screenshot-alias"
+    },
+    {
+      "file": "reports/evidence/screenshots/VR-TC-02.png",
+      "source": "reports/evidence/screenshots/BUG-07.png",
+      "type": "screenshot-alias"
+    },
+    {
+      "file": "reports/evidence/screenshots/VR-TC-03.png",
+      "source": "reports/evidence/screenshots/user-orders.png",
+      "type": "screenshot-alias"
+    },
+    {
+      "file": "reports/evidence/screenshots/VR-TC-04.png",
+      "source": "reports/evidence/screenshots/user-orders.png",
+      "type": "screenshot-alias"
+    },
+    {
+      "file": "reports/evidence/screenshots/VR-TC-05.png",
+      "source": "reports/evidence/screenshots/BUG-07.png",
+      "type": "screenshot-alias"
+    },
+    {
+      "file": "reports/evidence/api-test-result/VR-TC-06.txt",
+      "source": "reports/evidence/api-test-result/backend-supertest-result.txt",
+      "type": "log-pointer"
+    },
+    {
+      "file": "reports/evidence/api-test-result/VR-TC-07.txt",
+      "source": "reports/evidence/api-test-result/backend-supertest-result.txt",
+      "type": "log-pointer"
+    },
+    {
+      "file": "reports/evidence/api-test-result/VR-TC-08.txt",
+      "source": "reports/evidence/api-test-result/backend-supertest-result.txt",
+      "type": "log-pointer"
+    },
+    {
+      "file": "reports/evidence/api-test-result/VR-TC-10.txt",
+      "source": "reports/evidence/api-test-result/backend-supertest-result.txt",
+      "type": "log-pointer"
+    },
+    {
+      "file": "reports/evidence/unit-test-result/VR-TC-11.txt",
+      "source": "reports/evidence/unit-test-result/backend-vitest-result.txt",
+      "type": "log-pointer"
+    },
+    {
+      "file": "reports/evidence/unit-test-result/VR-TC-12.txt",
+      "source": "reports/evidence/unit-test-result/backend-vitest-result.txt",
+      "type": "log-pointer"
+    },
+    {
+      "file": "reports/evidence/unit-test-result/VR-TC-13.txt",
+      "source": "reports/evidence/unit-test-result/backend-vitest-result.txt",
+      "type": "log-pointer"
+    },
+    {
+      "file": "reports/evidence/api-test-result/VR-TC-14.txt",
+      "source": "reports/evidence/api-test-result/backend-supertest-result.txt",
+      "type": "log-pointer"
+    },
+    {
+      "file": "reports/evidence/api-test-result/VR-TC-15.txt",
+      "source": "reports/evidence/api-test-result/backend-supertest-result.txt",
+      "type": "log-pointer"
+    },
+    {
+      "file": "reports/evidence/api-test-result/BUG-01.txt",
+      "source": "reports/evidence/api-test-result/backend-supertest-result.txt",
+      "type": "log-pointer"
+    },
+    {
+      "file": "reports/evidence/api-test-result/BUG-02.txt",
+      "source": "reports/evidence/api-test-result/backend-supertest-result.txt",
+      "type": "log-pointer"
+    },
+    {
+      "file": "reports/evidence/api-test-result/BUG-03.txt",
+      "source": "reports/evidence/api-test-result/backend-supertest-result.txt",
+      "type": "log-pointer"
+    },
+    {
+      "file": "reports/evidence/screenshots/BUG-04.png",
+      "source": "reports/evidence/screenshots/admin-products.png",
+      "type": "screenshot-alias"
+    },
+    {
+      "file": "reports/evidence/screenshots/BUG-09.png",
+      "source": "reports/evidence/screenshots/admin-vouchers.png",
+      "type": "screenshot-alias"
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+# 07. Member Assignment
+
+## Nguyễn Huy Trường: Authentication & Authorization
+- Chuc nang phu trach:
+  - Dang ky, dang nhap, logout phia client.
+  - JWT.
+  - Role `USER` / `ADMIN`.
+  - Middleware `requireAuth`, `requireAdmin`.
+- Tai lieu can review:
+  - `docs/SRS.md` phan auth/business rule.
+  - `docs/API_DOCUMENT.md` muc Authentication.
+  - `docs/TEST_CASES.md` nhom `AUTH-*`.
+- Code can review:
+  - `backend/src/modules/auth/*`
+  - `backend/src/middlewares/auth.ts`
+  - `frontend/src/context/AuthContext.tsx`
+  - `frontend/src/pages/LoginPage.tsx`
+  - `frontend/src/pages/RegisterPage.tsx`
+- Test case can thuc hien:
+  - `AUTH-01` den `AUTH-08`.
+  - Uu tien them case 401, 403, duplicate email, password yeu.
+- Loai kiem thu:
+  - API test.
+  - Black-box validation test.
+  - Security/basic authorization test.
+  - UI test form login/register.
+
+## Hồ Quang Trường: Product Management
+- Chuc nang phu trach:
+  - Product list, detail, search, filter.
+  - Public visibility `ACTIVE`.
+  - Admin list full, create, update, delete guard.
+- Tai lieu can review:
+  - `docs/SRS.md` muc Product.
+  - `docs/API_DOCUMENT.md` muc Product.
+  - `docs/BUG_REPORT.md` cac bug `BUG-01`, `BUG-02`, `BUG-04`.
+- Code can review:
+  - `backend/src/modules/products/*`
+  - `frontend/src/pages/ProductsPage.tsx`
+  - `frontend/src/pages/ProductDetailPage.tsx`
+  - `frontend/src/pages/AdminProductsPage.tsx`
+- Test case can thuc hien:
+  - `PROD-01` den `PROD-10`.
+  - Uu tien test visibility inactive va delete 409.
+- Loai kiem thu:
+  - UI test list/filter/admin product.
+  - API test CRUD/search/filter.
+  - Black-box boundary gia/ton kho.
+  - Code review data integrity.
+
+## Hoàng Xuân Thảo: Cart & Checkout
+- Chuc nang phu trach:
+  - Add/update/remove cart.
+  - Tong tien.
+  - Validate stock.
+  - Checkout transaction tao order, tru stock, clear cart.
+- Tai lieu can review:
+  - `docs/SRS.md` muc Cart & Checkout.
+  - `docs/API_DOCUMENT.md` muc Cart va Checkout.
+  - `docs/DATABASE_DESIGN.md` bang `cart_items`, `orders`, `order_items`.
+- Code can review:
+  - `backend/src/modules/cart/*`
+  - `backend/src/modules/orders/order.service.ts` phan checkout.
+  - `frontend/src/pages/CartPage.tsx`
+  - `frontend/src/pages/CheckoutPage.tsx`
+- Test case can thuc hien:
+  - `CART-01` den `CART-08`.
+  - Uu tien empty cart, stock exceed, checkout co voucher.
+- Loai kiem thu:
+  - Black-box workflow test.
+  - API integration test.
+  - UI test gio hang/checkout.
+  - Review transaction va data consistency.
+
+## Ngô Quang Tiến: Order Management
+- Chuc nang phu trach:
+  - User xem don cua minh.
+  - Admin xem toan bo don.
+  - State transition order.
+  - Restore stock khi cancel.
+- Tai lieu can review:
+  - `docs/SRS.md` muc Order.
+  - `docs/API_DOCUMENT.md` muc Checkout & Order.
+  - `docs/TEST_CASES.md` nhom `ORD-*`.
+- Code can review:
+  - `backend/src/modules/orders/*`
+  - `frontend/src/pages/OrdersPage.tsx`
+  - `frontend/src/pages/AdminOrdersPage.tsx`
+- Test case can thuc hien:
+  - `ORD-01` den `ORD-08`.
+  - Uu tien transition matrix va access control.
+- Loai kiem thu:
+  - Unit test logic transition.
+  - API test admin order.
+  - UI test admin order dashboard.
+  - Black-box state transition test.
+
+## Trần Chí Trung: Voucher & Product Review
+- Chuc nang phu trach:
+  - Tao/apply voucher.
+  - Validate expired, duplicate, usage limit, min order.
+  - Review product da mua.
+  - Duplicate review guard.
+  - Reviewed flag tren order item.
+- Tai lieu can review:
+  - `docs/SRS.md` muc Voucher va Review.
+  - `docs/API_DOCUMENT.md` muc Voucher va Review.
+  - `docs/BUG_REPORT.md` bug `BUG-03`, `BUG-05`, `BUG-06`.
+- Code can review:
+  - `backend/src/modules/vouchers/*`
+  - `backend/src/modules/reviews/*`
+  - `backend/src/modules/orders/order.service.ts` phan `reviewed`
+  - `frontend/src/pages/CheckoutPage.tsx`
+  - `frontend/src/pages/AdminVouchersPage.tsx`
+  - `frontend/src/pages/OrdersPage.tsx`
+- Test case can thuc hien:
+  - `VOU-01` den `VOU-08`.
+  - `REV-01` den `REV-09`.
+- Loai kiem thu:
+  - API rule validation test.
+  - UI test checkout voucher/review order.
+  - Black-box negative cases.
+  - Defect analysis va recommendation.

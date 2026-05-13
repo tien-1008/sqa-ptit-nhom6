@@ -1,0 +1,2 @@
+AUTH-TC-06 - Login seeded user: covered by backend-supertest-result.txt and api-smoke-result.json.
+Generated at: 2026-05-13T16:00:23.793Z

@@ -1,0 +1,22 @@
+{
+  "generatedAt": "2026-05-13T16:00:23.774Z",
+  "health": {
+    "success": true,
+    "message": "Backend is healthy.",
+    "data": {
+      "service": "sqa-ecommerce-mini-backend"
+    }
+  },
+  "productCount": 6,
+  "categoryCount": 4,
+  "userLogin": {
+    "success": true,
+    "email": "user@example.com",
+    "role": "USER"
+  },
+  "adminLogin": {
+    "success": true,
+    "email": "admin@example.com",
+    "role": "ADMIN"
+  }
+}

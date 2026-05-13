@@ -1,0 +1,15 @@
+ID,Activity,Description,Owner,Start Date,End Date,Deliverable,Status,Note
+TP-01,Requirement review,Ra soat SRS va business rule auth/product/cart/order/voucher/review,Group Lead,2026-05-13,2026-05-13,Requirement review note,Planned,Bam sat docs/SRS.md
+TP-02,Environment setup,Cai backend/frontend copy env init va seed SQLite,Hoàng Xuân Thảo,2026-05-13,2026-05-13,Local runtime ready,Planned,Dung npm.cmd neu PowerShell khong nhan npm
+TP-03,Authentication API test,Test login register invalid credential 401 va 403 admin route,Nguyễn Huy Trường,2026-05-14,2026-05-14,Auth API execution sheet,Planned,Dung AUTH-01 den AUTH-08
+TP-04,Product UI and API test,Test list search filter visibility active inactive va CRUD admin,Hồ Quang Trường,2026-05-14,2026-05-15,Product test result,Planned,Bao gom PROD-01 den PROD-10
+TP-05,Cart black-box test,Test add update remove cart va stock boundary,Hoàng Xuân Thảo,2026-05-15,2026-05-15,Cart black-box report,Planned,Bao gom CART-01 den CART-05
+TP-06,Checkout integration test,Test checkout empty cart normal checkout voucher checkout va clear cart,Hoàng Xuân Thảo,2026-05-15,2026-05-16,Checkout test result,Planned,Bao gom CART-06 den CART-08
+TP-07,Order transition review,Rasoat state machine va test transition hop le khong hop le,Ngô Quang Tiến,2026-05-16,2026-05-16,Order transition matrix,Planned,Bao gom ORD-05 den ORD-08
+TP-08,Admin order UI test,Test danh sach don admin va cap nhat status tren frontend,Ngô Quang Tiến,2026-05-16,2026-05-16,UI evidence order admin,Planned,Can screenshot UI neu dua vao bao cao
+TP-09,Voucher rule test,Test duplicate code percent >100 expired minimum order va final amount,Trần Chí Trung,2026-05-17,2026-05-17,Voucher test result,Planned,Bao gom VOU-01 den VOU-08
+TP-10,Review rule test,Test completed order pending order wrong product duplicate review va reviewed state,Trần Chí Trung,2026-05-17,2026-05-17,Review API/UI result,Planned,Bao gom REV-01 den REV-09
+TP-11,Unit/API regression,Chay backend npm.cmd test va ghi lai 12/12 ket qua,Group Lead,2026-05-18,2026-05-18,Regression test evidence,Completed,Da xac minh 2026-05-12 trong project audit
+TP-12,Build verification,Chay build backend frontend de xac minh import/export va TypeScript,Group Lead,2026-05-18,2026-05-18,Build verification log,Completed,Backend build pass frontend build pass
+TP-13,Bug triage,Tong hop bug report severity priority va trang thai,All Members,2026-05-18,2026-05-18,Bug report CSV,Planned,Dung 06_bug_report.csv
+TP-14,Final report assembly,Chen ket qua checklist testcase defect vao Excel template va bao cao Word,Group Lead,2026-05-19,2026-05-19,Final SQA report,Planned,Su dung toan bo report-data

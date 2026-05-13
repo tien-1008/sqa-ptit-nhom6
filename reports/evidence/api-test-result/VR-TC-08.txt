@@ -1,0 +1,11 @@
+# Evidence pointer for VR-TC-08.txt
+
+Generated at: 2026-05-13T16:36:59.645Z
+Workbook: 03_Ket_qua_kiem_thu_5_thanh_vien.xlsx
+Sheet: TV5_Voucher_Review
+Row: 9
+Evidence scope: Voucher & Product Review
+Primary log: reports/evidence/api-test-result/backend-supertest-result.txt
+
+This file exists so the Evidence path in the Excel workbook resolves to a real artifact.
+The detailed command output is stored in the primary log above.

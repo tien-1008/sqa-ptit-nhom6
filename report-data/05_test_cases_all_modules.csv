@@ -1,0 +1,34 @@
+Test Case ID,Module,Function,Test Scenario,Preconditions,Test Steps,Test Data,Expected Result,Actual Result,Status,Tester,Note
+AUTH-01,Authentication,Login,Dang nhap user hop le,Seed data da chay,POST login bang user demo,user@example.com/User@123,200 co JWT va role USER,Da duoc bao phu bo API test,Pass,Nguyễn Huy Trường,Positive case
+AUTH-02,Authentication,Login,Dang nhap admin hop le,Seed data da chay,POST login bang admin demo,admin@example.com/Admin@123,200 co role ADMIN,Can thuc thi trong dot manual test,Not Run,Nguyễn Huy Trường,Positive case
+AUTH-03,Authentication,Login,Sai mat khau,User demo ton tai,POST login voi password sai,user@example.com/Wrong123,401 success false,Can thuc thi trong dot manual test,Not Run,Nguyễn Huy Trường,Negative case
+AUTH-04,Authentication,Register,Email sai dinh dang,Khong can token,POST register,email abc password User@1234,400 validation failed,Can thuc thi trong dot manual test,Not Run,Nguyễn Huy Trường,Negative validation
+AUTH-05,Authentication,Register,Password yeu,Khong can token,POST register,new@example.com/12345678,400 validation failed,Can thuc thi trong dot manual test,Not Run,Nguyễn Huy Trường,Negative validation
+AUTH-06,Authorization,Admin route,User thuong goi route admin,User token hop le,POST admin products bang user token,Payload product hop le,403 admin required,Can thuc thi trong dot manual test,Not Run,Nguyễn Huy Trường,Authorization fail
+PROD-01,Product,List,Xem danh sach product public,Seed da chay,GET /api/products,None,200 danh sach active product,Can thuc thi trong dot manual test,Not Run,Hồ Quang Trường,Positive case
+PROD-02,Product,Search,Tim theo keyword,Seed da chay,GET products?search=Keyboard,Keyboard,Tra product lien quan,Can thuc thi trong dot manual test,Not Run,Hồ Quang Trường,Search
+PROD-03,Product,Filter,Loc con hang,Seed da chay,GET products?inStock=true,true,Khong co product stock=0,Can thuc thi trong dot manual test,Not Run,Hồ Quang Trường,Filter
+PROD-04,Product,Filter,Loc gia sai min max,Seed da chay,GET products?minPrice=5000000&maxPrice=1000000,5000000 and 1000000,400 validation failed,Can thuc thi trong dot manual test,Not Run,Hồ Quang Trường,Negative validation
+PROD-05,Product,Create,Admin tao product hop le,Admin token,POST /api/admin/products,Regression Mouse payload,201 created,Da duoc bao phu bo API test,Pass,Hồ Quang Trường,Positive API
+PROD-06,Product,Visibility,Inactive product bi an public,Admin token,Tao INACTIVE roi GET public/admin list,Hidden Audit Device,Public khong thay admin thay,Da duoc bao phu bo API test,Pass,Hồ Quang Trường,Audit regression
+PROD-07,Product,Delete,Delete product co order history,Admin token va product 4 da mua,DELETE /api/admin/products/4,Product 4,409 conflict khong loi 500,Da duoc bao phu bo API test,Pass,Hồ Quang Trường,Data integrity
+CART-01,Cart,Add item,Them product hop le vao cart,User token stock du,POST /api/cart/items,productId 1 quantity 2,201 tong tien dung,Da duoc bao phu bo API test,Pass,Hoàng Xuân Thảo,Positive case
+CART-02,Cart,Add item,Them vuot ton kho,User token,POST cart quantity lon hon stock,productId 1 quantity 99,409 stock exceeded,Can thuc thi trong dot manual test,Not Run,Hoàng Xuân Thảo,Boundary fail
+CART-03,Cart,Update quantity,Cap nhat so luong hop le,Cart da co item,PATCH /api/cart/items/1,quantity 2,200 tong tien cap nhat,Can thuc thi trong dot manual test,Not Run,Hoàng Xuân Thảo,Positive case
+CART-04,Cart,Update quantity,Cap nhat quantity 0,Cart da co item,PATCH cart item,quantity 0,400 validation failed,Can thuc thi trong dot manual test,Not Run,Hoàng Xuân Thảo,Negative validation
+CART-05,Checkout,Checkout gio trong,User token cart rong,POST /api/orders/checkout,Shipping hop le,409 cart empty,Can thuc thi trong dot manual test,Not Run,Hoàng Xuân Thảo,Negative business rule
+CART-06,Checkout,Checkout co voucher hop le,User token cart dat min order,POST checkout voucher WELCOME10,product 4 voucher WELCOME10,201 order PENDING final amount dung,Da duoc bao phu bo API test,Pass,Hoàng Xuân Thảo,Integration
+ORD-01,Order,List mine,User xem don cua minh,User token,GET /api/orders/mine,None,Chi tra don cua user do,Can thuc thi trong dot manual test,Not Run,Ngô Quang Tiến,Authorization positive
+ORD-02,Order,List all,Admin xem tat ca don,Admin token,GET /api/admin/orders,None,200 co danh sach don,Can thuc thi trong dot manual test,Not Run,Ngô Quang Tiến,Admin positive
+ORD-03,Order,Status,PENDING sang CONFIRMED,Admin token order PENDING,PATCH admin order status,CONFIRMED,200 status CONFIRMED,Da duoc bao phu bo API test,Pass,Ngô Quang Tiến,Transition positive
+ORD-04,Order,Status,COMPLETED quay ve PENDING bi chan,Admin token order completed,PATCH admin order status,PENDING,409 invalid transition,Duoc bao phu bo unit transition logic,Pass,Ngô Quang Tiến,Transition negative
+ORD-05,Order,Cancel,Cancel order hop le va restore stock,Admin token order PENDING,PATCH status CANCELLED,CANCELLED,200 va stock duoc cong lai,Can thuc thi trong dot manual test,Not Run,Ngô Quang Tiến,Inventory consequence
+VOU-01,Voucher,Create,Admin tao voucher percent hop le,Admin token,POST /api/admin/vouchers,SPRING15 payload,201 created,Can thuc thi trong dot manual test,Not Run,Trần Chí Trung,Positive case
+VOU-02,Voucher,Create,Tao voucher code trung,Admin token WELCOME10 da co,POST create voucher,WELCOME10,409 duplicate,Can thuc thi trong dot manual test,Not Run,Trần Chí Trung,Negative duplicate
+VOU-03,Voucher,Apply,Apply voucher hop le,User token cart dat min,POST /api/vouchers/apply,WELCOME10,200 discount dung,Da duoc bao phu bo API test,Pass,Trần Chí Trung,Positive rule
+VOU-04,Voucher,Apply,Apply voucher het han,User token cart co item,POST apply,EXPIRED20,409 expired,Can thuc thi trong dot manual test,Not Run,Trần Chí Trung,Negative rule
+VOU-05,Voucher,Seed consistency,Seed used count phu hop order giam gia,Admin token,GET /api/admin/vouchers,WELCOME10,usedCount=1,Da duoc bao phu bo API test,Pass,Trần Chí Trung,Data consistency
+REV-01,Review,Create,Review order completed hop le,User token order 1 completed,POST /api/reviews,order 1 product 4 rating 5,201 created,Da duoc bao phu bo API test,Pass,Trần Chí Trung,Positive case
+REV-02,Review,Create,Review order pending bi chan,User token pending order,POST review,pending order product 1,409 only completed purchases,Can thuc thi trong dot manual test,Not Run,Trần Chí Trung,Negative rule
+REV-03,Review,Create,Duplicate review bi chan,Review hop le da ton tai,POST review lan 2,order 1 product 4,409 duplicate,Da duoc bao phu bo API test,Pass,Trần Chí Trung,Negative duplicate
+REV-04,Review,Order state,orders mine danh dau reviewed flag,Review vua duoc tao,GET /api/orders/mine,order 1 product 4,items reviewed true,Da duoc bao phu bo API test,Pass,Trần Chí Trung,Frontend support
